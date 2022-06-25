@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: beige;
+    font-family: 'Helvetica', sans-serif;
+
+}
+
+html {
+    background: black;
+}
+
+h2 h3 h4 p {
+    font-size: 1.2rem;
+}
+
+header {
+    width: 100%;
+    border-bottom: solid 2px beige;
+    position: sticky;
+    top: 0;
+
+
+
+
+}
+
+#head {
+    background-color: #141517;
+    color: beige;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px 0 15px;
+
+}
+
+#head h1 {
+    font-family: 'Brush Script MT', cursive;
+    font-weight: 100;
+    font-size: 2.75rem;
+}
+
+#navigation {
+    font-size: 1.5em;
+    color: beige;
+}
+
+#navigation li {
+    color: beige;
+    display: inline-flex;
+    transition: all 0.3s ease 0s;
+    padding: 0 20px 0 20px;
+
+}
+
+#navigation li a:visited {
+    color: beige;
+}
+
+#navigation li a:hover {
+    transition: all 0.3s ease 0s;
+    color: rgb(82, 82, 82);
+}
+
+#navigation li a:active {
+    text-shadow: 1px 1px 2px beige;
+    transition: all 0.1s ease 0s;
+}
+
+
+#banner {
+    display: flex;
+    background-image: url("./resources/BraceletMoonstone4.jpg");
+    background-position: center;
+    width: auto;
+    height: 400px;
+
+
+    align-items: center;
+    justify-content: center;
+
+    font-size: 1.2rem;
+
+    border-bottom: solid 2px beige;
+
+}
+
+#banner #container {
+    text-align: center;
+    font-size: 2rem;
+
+
+}
+
+#banner #container:hover {
+    transition: all 0.6s ease 0s;
+    text-shadow: 1px 1px 4px beige;
+
+}
+
+#aboutUs {
+    display: flex;
+    padding: 2%;
+    gap: 10px;
+    font-size: 1.2rem;
+
+    background-color: #141517;
+    border-bottom: solid 2px beige;
+   
+    align-content: center;
+    
+
+
+}
+
+#aboutUs img {
+    width: 49%;
+    border: solid 2px rgba(245, 245, 220, 0.5);
+    min-width: 1000;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+
+
+}
+
+#aboutText {
+    text-align: justify;
+    width: 49% ;
+}
+#aboutText h2 {
+    text-align: center;
+    
+}
+
+#heading {
+    font-size: 2rem;
+    text-align: center;
+    padding: 2%;
+
+}
+
+
+#products {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 5px;
+
+}
+
+.productContainer {
+
+    border: solid 2px rgba(245, 245, 220, 0.5);
+    font-size: 1.2rem;
+    text-align: justify;
+    padding: 5px;
+    text-align: center;
+
+
+
+}
+
+.productContainer img {
+    width: 300px;
+    height: auto;
+}
+
+footer {
+    width: 100%;
+    border-top: solid 2px beige;
+    position: sticky;
+    top: 0;
+    background-color: #141517;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+@media screen and (max-width: 900px) {
+    #aboutUs img, #aboutText  {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    #aboutUs   {
+        flex-wrap: wrap;
+        
+    }
+}
+@media screen and (max-width: 750px) {
+    #navigation li  {
+        font-size: 90%;
+        padding: 0 5px 0 5px;
+    }
+}
+@media screen and (max-width: 500px) {
+    #navigation  li {
+        font-size: 60%;
+        padding: 0 2px 0 2px;
+    }
+}
+@media screen and (max-width: 400px) {
+    #navigation  {
+        font-size: 100%;
+       
+    }
+}
