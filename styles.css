@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+
+    font-family: 'Courier', sans-serif;
+
+}
+
+html {
+    background: lightgray;
+}
+
+header {
+    background-color: darkgrey;
+    color: beige;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px 0 15px;
+
+}
+
+header p {
+
+    font-weight: 100;
+    font-size: 2.75rem;
+    color: beige;
+}
+
+#nav {
+    font-size: 1.5em;
+    color: beige;
+}
+
+#nav li a {
+    color: beige;
+}
+
+#nav li {
+    color: beige;
+    display: inline-flex;
+    transition: all 0.3s ease 0s;
+    padding: 0 20px 0 20px;
+
+}
+
+#nav li a:visited {
+    color: beige;
+}
+
+#nav li a:hover {
+    transition: all 0.3s ease 0s;
+    color: rgb(82, 82, 82);
+}
+
+#nav li a:active {
+    text-shadow: 1px 1px 2px beige;
+    transition: all 0.1s ease 0s;
+}
+
+
+#aboutMe {
+    background-color: grey;
+    width: auto;
+    height: 400px;
+}
+
+
+#projects{
+    background-color: skyblue;
+    width: auto;
+    
+}
+.container{
+    background-color: lightblue;   
+    height: 200px;
+    margin: 2%;
+}
